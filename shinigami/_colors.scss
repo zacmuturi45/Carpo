@@ -1,0 +1,76 @@
+@each $key, $val in $colors {
+    .spans-#{$key} {
+        color: $val
+    }
+    .thickspans-#{$key} {
+        background-color: $val
+    }
+
+    // light color variations
+    @if($val != black and $val != white) {
+        @for $i from 1 through 10 {
+            .spans-#{$key}-light-#{$i} {
+                color: mix(white, $val, $i * 10%);
+            }
+            .spans-hover-#{$key}-light-#{$i} {
+                &:hover {
+                    color: mix(white, $val, $i * 10%);
+                }
+            }
+            .thickspans-#{$key}-light-#{$i} {
+                background-color: mix(white, $val, $i * 10%);
+            }
+        }
+
+        @for $i from 1 through 10 {
+            .spans-#{$key}-dark-#{$i} {
+                color: mix(black, $val, $i * 10%);
+            }
+            .thickspans-hover-#{$key}-dark-#{$i} {
+                &:hover {
+                    background-color: mix(black, $val, $i * 10%);
+                }
+            }
+            .thickspans-#{$key}-dark-#{$i} {
+                background-color: mix(black, $val, $i * 10%);
+            }
+        }
+    }
+}
+
+
+@each $key, $val in $red {
+    .cl-red-#{$key} {
+        color: $val;
+    }
+    .bg-red-#{$key} {
+        background-color: $val;
+    }
+}
+
+@each $key, $val in $green {
+    .cl-green-#{$key} {
+        color: $val;
+    }
+    .bg-green-#{$key} {
+        background-color: $val;
+    }
+}
+
+@each $key, $val in $blue {
+    .cl-blue-#{$key} {
+        color: $val;
+    }
+    .bg-blue-#{$key} {
+        background-color: $val;
+    }
+}
+
+@each $key, $val in $grey {
+    .cl-grey-#{$key} {
+        color: $val;
+    }
+    .bg-grey-#{$key} {
+        background-color: $val;
+    }
+}

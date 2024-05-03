@@ -1,0 +1,93 @@
+//variable theme colors
+$primary: #326dee;
+$secondary: #1ac888;
+$error: #d32752;
+$info: #f6c31c;
+$section-padding: 2rem;
+$container-padding: .5rem;
+
+// font-sizes
+$base-font-size: 1rem;
+$font-size-small: $base-font-size * .75;
+$font-size-medium: $base-font-size * 1;
+$font-size-large: $base-font-size * 1.5;
+$font-size-xl: $base-font-size * 2;
+$font-size-xxl: $base-font-size * 3;
+
+//box-shadow
+$base-box-shadow: 2px 2px 3px rgba(0, 0, 0.75);
+
+//padding
+$base-padding: .2rem;
+$base-border-radius: 16px;
+$base-border-thickness: 2px;
+
+//margin
+$base-margin: .5rem;
+
+// colors
+$colors: (
+    "primary": $primary,
+    "secondary": $secondary,
+    "info": $info,
+    "error": $error,
+    "blue": #1919e6,
+    "red": #e61919,
+    "yellow": #e6e619,
+    "green": #19e635,
+    "orange": #ffa600,
+    "purple": #9900ff,
+    "gray": #808080,
+    "black": black,
+    "white": white,
+    "rebeccapurple": rebeccapurple,
+);
+
+//hsl color
+$red: (
+    "1": hsl(0, 10%, 100%),
+    "2": hsl(0, 100%, 90%),
+    "3": hsl(0, 100%, 80%),
+    "4": hsl(0, 72%, 60%),
+    "5": hsl(0, 75%, 50%),
+    "6": hsl(0, 85%, 40%),
+    "7": hsl(0, 82%, 38%),
+    "8": hsl(0, 90%, 30%),
+    "9": hsl(0, 100%, 25%),
+);
+
+$green: (
+    "1": hsl(120, 10%, 100%),
+    "2": hsl(120, 100%, 90%),
+    "3": hsl(120, 100%, 80%),
+    "4": hsl(120, 72%, 60%),
+    "5": hsl(120, 75%, 50%),
+    "6": hsl(120, 85%, 40%),
+    "7": hsl(120, 82%, 38%),
+    "8": hsl(120, 90%, 30%),
+    "9": hsl(120, 100%, 25%),
+);
+
+$blue: (
+    "1": hsl(240, 10%, 100%),
+    "2": hsl(240, 100%, 90%),
+    "3": hsl(240, 100%, 80%),
+    "4": hsl(240, 72%, 60%),
+    "5": hsl(240, 75%, 50%),
+    "6": hsl(240, 85%, 40%),
+    "7": hsl(240, 82%, 38%),
+    "8": hsl(240, 90%, 30%),
+    "9": hsl(240, 100%, 25%),
+);
+
+$grey: (
+    "1": hsl(0, 10%, 100%),
+    "2": hsl(0, 2%, 71%),
+    "3": hsl(0, 3%, 48%),
+    "4": hsl(0, 2%, 39%),
+    "5": hsl(0, 7%, 23%),
+    "6": hsl(0, 10%, 18%),
+    "7": hsl(0, 16%, 11%),
+    "8": hsl(0, 25%, 8%),
+    "9": hsl(0, 60%, 1%),
+);
