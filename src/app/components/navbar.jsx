@@ -28,7 +28,7 @@ export default function Navbar() {
     return (
         <main>
             <nav className={visible ? "" : "nav-hidden"}>
-                <Image src={carpo} className='carpo-image' />
+                <Image src={carpo} className='carpo-image' alt='carpo-logo' />
                 <div className='navlinks'>
                     <Link href="#services">Our Services</Link>
                     <Link href="#driver">Carpo Driver</Link>

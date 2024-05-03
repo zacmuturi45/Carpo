@@ -12,29 +12,13 @@ export default function Qr() {
 
                 <div className='qr-container dsp-f justify-space-between p-2'>
                     <div className='qr-image-container'>
-                        <Image src={qrcode} className='qrcode' />
+                        <Image src={qrcode} className='qrcode' alt='qrcode' />
                     </div>
                     <div className='qr-text-container'>
                         <h4>Download the <span className='cl-red-5'>Carpo</span> app</h4>
                         <p>Scan to download</p>
                     </div>
-                    {/* <div className='qr-google-container'>
-                        <Image src={google} />
-                    </div> */}
                 </div>
-
-                {/* <div className='qr-container dsp-f justify-space-between p-2'>
-                    <div className='qr-image-container'>
-                        <Image src={qrcode} className='qrcode' />
-                    </div>
-                    <div className='qr-text-container'>
-                        <h4>Download the <span className='cl-red-5'>Driver</span> app</h4>
-                        <p>Scan to download</p>
-                    </div>
-                    <div className='qr-google-container'>
-                        <Image src={google} />
-                    </div>
-                </div> */}
             </div>
 
         </main>

@@ -20,11 +20,11 @@ export default function Footer() {
 
                             <div className="footer-carpo-text dsp-f fd-c">
                                 <div>
-                                    <Image src={Carpo} width={400} height={200} />
+                                    <Image src={Carpo} width={400} height={200} alt='carpo-logo' />
                                 </div>
                                 <div className='appstore-container'>
-                                    <Image src={playstore} className='google' />
-                                    <Image src={apple} className='appstore' />
+                                    <Image src={playstore} className='google' alt='carpo-logo' />
+                                    <Image src={apple} className='appstore' alt='carpo-logo' />
                                 </div>
                             </div>
                             
@@ -50,13 +50,13 @@ export default function Footer() {
                         <div className="dsp-f fd-c ai-c justify-center footer-icons">
                             <div className='contact-icons dsp-f fd-r'>
 
-                                <Image src={facebook} className='icons' />
+                                <Image src={facebook} className='icons' alt='facebook-logo' />
 
-                                <Image src={twitter} className='icons' />
+                                <Image src={twitter} className='icons' alt='twitter-logo' />
 
-                                <Image src={instagram} className='icons' />
+                                <Image src={instagram} className='icons' alt='instagram-logo' />
 
-                                <Image src={linkedin} className='icons' />
+                                <Image src={linkedin} className='icons' alt='linkedin-logo' />
                             </div>
                             <div className='copyright'>
                                 <p>Copyright. All rights reserved</p>

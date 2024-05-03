@@ -17,22 +17,22 @@ export default function HowItworks() {
                 </div>
                 <div className='svg-div'>
                     <div className='grid1 dsp-f fd-c'>
-                        <Image src={location} width={120} height={120} className='grid-image'/>
+                        <Image src={location} width={120} height={120} className='grid-image' alt='svg-image'/>
                         <p><span className="circle">1</span>Enter your location details in the app.</p>
                     </div>
 
                     <div className='grid2 dsp-f fd-c'>
-                    <Image src={prompt} width={120} height={120} className='grid-image'/>
+                    <Image src={prompt} width={120} height={120} className='grid-image' alt='svg-image'/>
                         <p><span className="circle">2</span>Follow the instructions on the app to get a tailor made transport solution for your goods.</p>
                     </div>
 
                     <div className='grid3 dsp-f fd-c'>
-                    <Image src={trucks} width={120} height={120} className='grid-image'/>
+                    <Image src={trucks} width={120} height={120} className='grid-image' alt='svg-image'/>
                         <p><span className="circle">3</span>Get contacted by one of our drivers in seconds who will assist with packaging and loading.</p>
                     </div>
 
                     <div className='grid4 dsp-f fd-c'>
-                    <Image src={arrived} width={120} height={120} className='grid-image'/>
+                    <Image src={arrived} width={120} height={120} className='grid-image' alt='svg-image'/>
                         <p><span className="circle">4</span>Sit back and track your package as its delivered to your client.</p>
                     </div>
                 </div>
