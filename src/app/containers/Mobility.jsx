@@ -41,7 +41,7 @@ export default function Mobility() {
         <div className="cols-6-xl col-10-xs">
         <div>
             <h3>Heavy Cargo</h3>
-            <p>Exhausted your factory cargo transportation? We&apos;ll help you fill the gaps with our ever-ready heavy truckers. Get Carpo today and experience unmatched services.</p>
+            <p>Let us do the heavy lifting. Get Carpo today and find a bulk cargo solution tailored for your factory.</p>
           </div>
           <Image src={fuso} className="services-image" alt="fuso" />
         </div>

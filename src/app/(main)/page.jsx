@@ -14,8 +14,10 @@ import Qr from "../containers/qr";
 import Lenis from "lenis";
 import { useEffect } from "react";
 import { FloatingWhatsApp } from "react-floating-whatsapp";
+import carpo from "../assets/carpo.png";
 
 export default function Home() {
+  console.log(carpo)
 
   useEffect(() => {
     const lenis = new Lenis()
@@ -38,6 +40,7 @@ export default function Home() {
       darkMode="true"
       allowEsc="true"
       notificationSound="true"
+      avatar="/_next/static/media/carpo.bab6d782.png"
       />
       <Hero />
       <div className="main-wrapper col-10-xs">

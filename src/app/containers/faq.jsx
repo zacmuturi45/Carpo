@@ -11,7 +11,7 @@ export default function Faq() {
                 <div className='faq-heading dsp-f ai-c justify-center m-b-4'>
                     <h1 id='faqs'>FAQs</h1>
                 </div>
-                <div>
+                <div className='faq-div'>
                     <FaqCard header="How does Carpo work?" body="Carpo simplifies the process of business deliveries. After signing up, you can easily schedule pickups, track your packages in real-time, and receive notifications every step of the way. Our platform connects you with professional drivers who ensure safe and timely delivery of your items." />
 
                     <FaqCard header="What types of businesses does Carpo serve?" body="Carpo caters to a wide range of businesses, including large corporations, small businesses, e-commerce stores, restaurants, medical facilities, and more. Whether you need to deliver documents, products, food orders, or medical supplies, our platform is designed to meet your delivery needs." />

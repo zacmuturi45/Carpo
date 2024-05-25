@@ -267,7 +267,6 @@ nav button {
   left: 0;
   width: 100%; /* Adjust width of gradient overlay as needed */
   height: 8%;
-  background: linear-gradient(to top, rgb(255, 255, 255), transparent); /* Adjust gradient colors and direction */
 }
 
 .wrapper {
@@ -387,7 +386,7 @@ nav button {
   position: relative;
   height: 300px;
   border-radius: 8px;
-  background-color: rgb(237, 237, 237);
+  background-color: rgb(251, 251, 251);
   display: flex;
   flex-direction: column;
   padding: 2rem;
@@ -396,9 +395,11 @@ nav button {
 .services-wrapper > div p {
   max-width: 350px;
   color: rgb(50, 50, 50);
+  font-size: 20px;
 }
 .services-wrapper > div h3 {
-  color: rgb(59, 59, 59);
+  color: rgb(225, 11, 11);
+  font-size: 25px;
 }
 .services-wrapper .services-image {
   position: absolute;
@@ -431,16 +432,19 @@ nav button {
   letter-spacing: 0.5px;
 }
 
-#toggle-faq {
-  display: none;
-}
-
 .faq-wrapper {
   border-top: 1px solid rgb(182, 182, 182);
 }
 
+.faq-main-plus {
+  width: 100%;
+  transition: all 0.3s ease;
+}
+
 .faq-content {
   width: 100%;
+  display: flex;
+  justify-content: space-between;
   height: auto;
   margin: 1rem 0;
   border-bottom: 1px solid rgb(226, 223, 223);
@@ -448,17 +452,17 @@ nav button {
   padding: 1rem;
 }
 .faq-content .faq-text {
-  max-width: 90%;
+  width: 100%;
+  display: flex;
+  padding: 2rem 0;
+  justify-content: space-between;
+  flex: 1;
   height: auto;
 }
 .faq-content .faq-text h1 {
-  font-size: 20px;
+  font-size: 35px;
+  width: 100%;
   color: rgb(212, 28, 28);
-}
-.faq-content .faq-text p {
-  margin-top: 0.5rem;
-  color: rgb(100, 99, 99);
-  transition: display 0.3s ease;
 }
 .faq-content .plus-icon {
   width: 33px;
@@ -466,11 +470,22 @@ nav button {
   padding: 2px;
   border-radius: 50%;
   cursor: pointer;
-  transition: all 0.3s;
+  transition: all 0.3s ease;
 }
 .faq-content .plus-icon:hover {
   background-color: rgb(245, 57, 57);
   color: white;
+}
+
+.rotate-icon {
+  transform: rotate(-45deg);
+}
+
+.faqP p {
+  margin-top: 0.5rem;
+  color: rgb(100, 99, 99);
+  transition: display 0.3s ease;
+  font-size: 30px;
 }
 
 .company > * :not(:nth-child(1)) {
@@ -492,12 +507,14 @@ nav button {
   height: auto;
   margin: 3rem auto;
   padding: 4rem 4rem;
+  transition: all 0.3s ease;
 }
 .faq-container .faq-heading {
   padding-bottom: 1rem;
 }
 .faq-container .faq-heading h1 {
   color: rgb(212, 28, 28);
+  font-size: 40px;
 }
 
 .contact-container {
@@ -512,7 +529,7 @@ nav button {
 }
 .contact-container .contact-text p {
   color: rgb(100, 99, 99);
-  font-size: 1.2rem;
+  font-size: 25px;
 }
 .contact-container .contact-icons {
   padding: 1rem 0;
@@ -618,7 +635,7 @@ nav button {
 }
 .main-works .flex-div1 {
   padding: 1rem;
-  border-right: 1px solid gray;
+  border-right: 1px solid rgb(201, 201, 201);
 }
 .main-works .flex-div1 h3 {
   font-size: 55px;
@@ -629,6 +646,9 @@ nav button {
 }
 .main-works .svg-div > div {
   padding: 1rem;
+}
+.main-works .svg-div > div p {
+  font-size: 25px;
 }
 
 .circle {
@@ -709,7 +729,7 @@ nav button {
 }
 
 .qr-wrapper {
-  padding: 3rem 3rem 3rem 3rem;
+  padding: 5rem 3rem 5rem 3rem;
   color: rgb(58, 58, 58);
 }
 .qr-wrapper h1 {
@@ -720,7 +740,8 @@ nav button {
   height: 100%;
 }
 .qr-wrapper .qr-container {
-  padding: 1rem;
+  padding: 1rem 2rem;
+  max-width: 650px;
   background-color: rgb(233, 233, 233);
   box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.75);
 }
@@ -746,12 +767,10 @@ nav button {
 
 .carpo-about {
   padding: 1rem;
-  border-left: 1px solid rgb(182, 182, 182);
 }
 .carpo-about p {
-  font-weight: 500;
   line-height: 125%;
-  font-size: 1.3rem;
+  font-size: 25px;
 }
 .carpo-about > * {
   margin: 2rem 0;
@@ -926,6 +945,7 @@ nav button {
   }
   .faq-content .faq-text {
     width: 100vw;
+    height: auto;
   }
   .contact-container {
     flex-direction: column;

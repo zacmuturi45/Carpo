@@ -8,13 +8,13 @@ export default function About() {
         <main className="wrapper main-about col-8-md dsp-f ai-c">
 
             <div className="dsp-f ai-c fd-c about-container pt-4">
-                <h1 className="cl-grey-5" id="about">About us</h1>
+                <h1 className="cl-grey-5" id="about">Transforming lives</h1>
                 <div className="about">
                     <div className="about-image">
                         <Image src={about} alt="about-image"/>
                     </div>
                     <div className="carpo-about">
-                        <h4>Transforming lives</h4>
+                        {/* <h4>Transforming lives</h4> */}
                         <p>
                             Carpo was founded with a mission to streamline the delivery process from businesses to clients, empowering you, the business owner to focus on what truly matters - growing your business.<br />
                         </p>
